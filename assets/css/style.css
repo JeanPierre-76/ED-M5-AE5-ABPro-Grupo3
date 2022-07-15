@@ -1,0 +1,30 @@
+/* Estílo del header */
+#formato-formulario {
+  text-align: center;
+}
+
+/* Estílo centrado imagenes del Article */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.fit-image{
+  width: 50%;
+  object-fit: cover;
+  height: 100px; /* only if you want fixed height */
+  }
+
+.row{
+  float: left;
+  width:100%;
+}
+
+.left{
+  float:left;
+}
+
+.bg-image{
+  background-image: url(../img/quienessomos.png);
+  height: 400px;
+}
